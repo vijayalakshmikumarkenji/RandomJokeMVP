@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.RandomJokeActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"
+        android:background="@drawable/rounded_border_grey"
+        android:backgroundTint="@color/grey"
+        android:orientation="vertical"
+        android:padding="@dimen/margin">
+
+        <TextView
+            android:id="@+id/query_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textSize" />
+
+        <TextView
+            android:id="@+id/answer_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textSize" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@color/colorAccent"
+        android:paddingLeft="@dimen/margin"
+        android:paddingTop="@dimen/padding"
+        android:paddingRight="@dimen/margin"
+        android:paddingBottom="@dimen/padding"
+        android:text="@string/next"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textSize" />
+
+</RelativeLayout>

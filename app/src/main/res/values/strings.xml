@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RandomJoke</string>
+    <string name="next">Next</string>
+    <string name="retry">Retry</string>
+    <string name="error_title">SomeThing Happended Bad :(</string>
+</resources>
